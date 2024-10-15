@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.rm2pt.generator.initialgpt' version='1.0.0.202410141332' generation='2'>
+    <update id='com.rm2pt.generator.initialgpt' range='[0.0.0,1.0.0.202410141332)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='InitialGPT'/>
+      <property name='maven-groupId' value='com.rm2pt.generator.initialgpt'/>
+      <property name='maven-artifactId' value='com.rm2pt.generator.initialgpt'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.rm2pt.generator.initialgpt' version='1.0.0.202410141332'/>
+      <provided namespace='osgi.bundle' name='com.rm2pt.generator.initialgpt' version='1.0.0.202410141332'/>
+      <provided namespace='osgi.identity' name='com.rm2pt.generator.initialgpt' version='1.0.0.202410141332'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='14'>
+      <required namespace='osgi.bundle' name='net.mydreamy.requirementmodel' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='net.mydreamy.requirementmodel.ide' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtend.lib' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.emf.ecore' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.generator' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.google.inject' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.ui.shared' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.ui.codetemplates.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.builder' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.compare' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+      <required namespace='java.package' name='org.apache.log4j' range='1.2.15'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=11))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.rm2pt.generator.initialgpt' version='1.0.0.202410141332'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.rm2pt.generator.initialgpt;singleton:=true&#xA;Bundle-Version: 1.0.0.202410141332&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

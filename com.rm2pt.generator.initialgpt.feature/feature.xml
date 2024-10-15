@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.rm2pt.generator.initialgpt.feature"
+      label="RM2PT Generator - Initialgpt"
+      version="1.0.0.qualifier">
+
+   <description url="http://plugins.rm2pt.com/initialgpt">
+      RM2PT Generator for Initialgpt
+   </description>
+
+   <copyright url="http://rm2pt.com/copyright">
+      RM2PT CopyRight
+   </copyright>
+
+   <license url="http://rm2pt.com/license">
+      RM2PT License
+   </license>
+
+   <plugin
+         id="com.rm2pt.generator.initialgpt"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
+

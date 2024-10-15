@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/projectShortName.feature_1.0.0.qualifier.jar" id="com.rm2pt.generator.initialgpt.feature" version="1.0.0.qualifier">
+      <category name="RM2PTPlugin"/>
+   </feature>
+   <category-def name="RM2PTPlugin" label="RM2PT Plugins">
+      <description>
+         RM2PT Plugins
+      </description>
+   </category-def>
+</site>
